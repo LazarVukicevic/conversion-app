@@ -1,0 +1,26 @@
+<div class="formArea">
+<form action="">
+    @if (switchBase) {
+        <h2>Feet to Inches conversion</h2>
+    } @else {
+        <h2>Inches to Feet conversion</h2>
+    }
+        <div class="formInputArea">
+            @if (switchBase) {
+                <label for="base">Feet</label>
+            } @else {
+                <label for="base">Inches</label>
+            }
+            <input type="text" id="base" name="base">
+            @if (switchBase) {
+                <label for="result">Inches</label>
+            } @else {
+                <label for="result">Feet</label>
+            }
+            <input type="text" id="result" name="result">
+            <button (click)="switchBase = !switchBase">Swap</button>
+
+        </div>
+
+    </form>
+</div>

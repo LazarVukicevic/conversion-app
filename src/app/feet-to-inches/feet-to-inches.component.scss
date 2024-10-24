@@ -1,0 +1,24 @@
+.formArea {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    padding-left: 50px;
+    width: 25%;
+}
+
+.formInputArea {
+    background-color: blue;
+    padding: 10px;
+}
+
+label {
+    width: 50px;
+}
+
+#base {
+    width: 50px;
+}
+
+#result {
+    width: 50px;
+}
